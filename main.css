@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 20px;
+  font-family: 'Permanent Marker', cursive;
+  background-image: url("space.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+p {
+  text-align:center;
+  font-size:35px;
+  color:rgba(134,90,190);
+}
+
+#cardhandler {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  position: relative;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+#buttons button {
+  width: 150px;
+  height: 200px;
+  margin: 2px;
+  font-size: 50px;
+  color:black;
+  border-radius:13px;
+  font-family: 'Permanent Marker', cursive;
+  cursor:pointer;
+  border: 2px solid rgba(134,90,190);
+}
+
+#buttons button:hover {
+    box-shadow: 0 12px 16px 0 rgba(134,90,190), 0 17px 50px 0 rgba(134,90,190);
+}
+
+.face-down {
+  background: black;
+}
+
+.face-up {
+  background:rgba(134,90,190);
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+  font-size:15px;
+  color:rgba(134,90,190);
+}
+
+div.scoreboard ul {
+  width: 300px;
+  justify-content: space-between;
+  display: flex;
+  list-style: none;
+}
+
+#reset {
+  display:flex;
+  justify-content:center;
+  border-radius:13px;
+  width: 100px;
+  height: 30px;
+  font-family:'Permanent Marker', cursive;
+  font-size:15px;
+  background-color:black;
+  color:rgba(134,90,190);
+  cursor:pointer;
+  border: 2px solid rgba(134,90,190);
+}
+
+
+#reset:hover {
+  box-shadow: 0 12px 16px 0 rgba(134,90,190), 0 17px 50px 0 rgba(134,90,190);
+}
+  
